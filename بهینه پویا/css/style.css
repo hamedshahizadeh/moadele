@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.woff") format("woff");
+}
+
+body {
+    background: url(../pic/3.jpg);
+    font-family: 'vazir';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.con {
+    background-color: rgb(255, 2, 2 ,0.08);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    font-weight: 500;
+
+}
+.bg-s{
+    background-color: rgba(97, 146, 206, 0.8);
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-send{
+    width: 80%;
+    margin-left: 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#spinner{
+    display: none;
+}
+
+#bbb{
+    display: none;
+}
+.MathJax_Display {
+  text-align: center;
+  margin: 0em 0em !important;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* spinner*/
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+    border: 8px solid #fdd;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fdd transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
